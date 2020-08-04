@@ -6,6 +6,7 @@ dependencies:
   - coiled
   - sat-search
   - dask
+  - numpy
   - xarray
   - geopandas
   - intake
@@ -14,3 +15,6 @@ dependencies:
   - rasterio
   - requests
   - geoviews
+  - fsspec
+  - s3fs
+  - zarr
