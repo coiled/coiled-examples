@@ -13,3 +13,4 @@ dependencies:
   - s3fs
   - python-snappy
   - fastparquet
+  - matplotlib
