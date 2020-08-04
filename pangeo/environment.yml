@@ -1,0 +1,20 @@
+name: pangeo
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - coiled
+  - sat-search
+  - dask
+  - numpy
+  - xarray
+  - geopandas
+  - intake
+  - intake-stac
+  - matplotlib
+  - rasterio
+  - requests
+  - geoviews
+  - fsspec
+  - s3fs
+  - zarr
