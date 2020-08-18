@@ -1,0 +1,17 @@
+name: pytorch
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.7
+  - dask
+  - numpy
+  - pandas
+  - coiled
+  - dask-ml
+  - skorch
+  - scipy
+  - matplotlib
+  - pytorch>1.1.0
+  - s3fs
