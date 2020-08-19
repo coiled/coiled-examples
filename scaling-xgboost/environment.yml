@@ -1,11 +1,9 @@
-name: xgboost
 channels:
   - conda-forge
 dependencies:
   - python=3.8
-  - dask=2.21.0
-  - pandas=1.0.5
-  - coiled
+  - dask>=2.23.0
+  - pandas>=1.1.0
   - xgboost
   - dask-ml
   - dask-xgboost

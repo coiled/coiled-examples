@@ -1,11 +1,9 @@
-name: pangeo
 channels:
   - conda-forge
 dependencies:
   - python=3.7
-  - coiled
   - sat-search
-  - dask
+  - dask>=2.23.0
   - numpy
   - xarray
   - geopandas
