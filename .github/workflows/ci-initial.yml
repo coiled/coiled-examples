@@ -1,0 +1,17 @@
+
+name: Initial CI
+
+on: ["push", "pull_request"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+
+      - name: Say hello
+        run: python -c "print('Hello, World!')"
