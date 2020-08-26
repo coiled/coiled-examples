@@ -1,5 +1,7 @@
 # Coiled Example Notebooks
 
+![Build environments](https://github.com/coiled/coiled-examples/workflows/Build%20environments/badge.svg)
+
 👋 Hi, welcome to the Coiled Examples repo! This repository contains easy-to-run example notebooks for [Coiled](https://coiled.io/) which illustrate how [Dask](https://dask.org/) and Coiled scale data- and compute-intensive workloads.
 
 If you're new to Coiled, we recommend first going through the [Coiled Getting Started guide](https://docs.coiled.io/getting_started.html) and then checking out the examples here 🚀
