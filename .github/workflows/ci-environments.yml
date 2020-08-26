@@ -1,11 +1,9 @@
 
 name: Build environments
 
-on: ["push", "pull_request"]
-  # push:
-  #   branches: master
-  # pull_request:
-  #   branches: master
+on:
+  push:
+    branches: master
 
 jobs:
   build:
